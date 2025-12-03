@@ -63,7 +63,7 @@ my-grub-theme/
 
 ---
 
-## ✏️ Customization
+## ✏️ Customization (Visit)[https://www.gnome-look.org/]
 
 You can customize:
 
