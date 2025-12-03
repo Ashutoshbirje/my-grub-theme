@@ -6,7 +6,7 @@ A clean and modern GRUB bootloader theme featuring a sleek boxed menu UI, fully 
 
 ## 📸 Preview
 
-![GRUB Theme Preview](background.png)
+![GRUB Theme Preview](assets/background.png)
 
 > Preview of the background image used in the GRUB boot menu.
 
