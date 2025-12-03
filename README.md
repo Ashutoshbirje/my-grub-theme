@@ -20,32 +20,58 @@ Follow these steps to install the theme:
    ```bash
    git clone https://github.com/Ashutoshbirje/my-grub-theme.git
 
-2. **Navigate to the theme directory**
+2. **Create the GRUB themes directory (if it doesn’t exist)**
    ```bash
-   cd my-grub-theme
+   sudo mkdir -p /boot/grub/themes
 
-3. **Create the GRUB themes directory (if it doesn’t exist)**
+3. **Copy the theme to GRUB themes folder**
    ```bash
+   sudo cp -r my-grub-theme/* /boot/grub/themes/mytheme/
 
-4. **Copy the theme to GRUB themes folder**
-   ```bash
-
-5. **Set the theme in GRUB configuration**
-   Open the GRUB configuration file:
+4. **Set the theme in GRUB configuration**
+   > Open the GRUB configuration file:
 
    ```bash
    sudo nano /etc/default/grub
 
-   Add or modify this line:
-   
+   > Add or modify this line:
+
    ```bash
-   GRUB_THEME="/boot/grub/themes/your-theme-directory/theme.txt"
+   GRUB_THEME=/boot/grub/themes/mytheme/theme.txt
 
-
-6. **Update GRUB**
+5. **Update GRUB**
    ```bash
    sudo update-grub
 
-7. **Reboot to apply the theme**
+6. **Reboot to apply the theme**
    ```bash
    sudo reboot
+
+📁 Folder Structure
+my-grub-theme/
+├── assets/
+│   ├── background.png   # Background image
+│   ├── selection.png    # Selection box image
+│   └── font.pf2         # Custom font
+├── icons/
+│   └── font.pf2         # Custom font
+├── theme.txt            # GRUB theme configuration
+└── README.md            # This file
+
+
+
+✏️ Customization
+
+You can customize:
+
+Background image → assets/background.png
+
+Terminal box → assets/terminal_box_/*.png
+
+Font → assets/terminus-/*.pf2
+
+Menu position & colors → theme.txt
+
+👨‍💻 Author
+
+Created by Ashutosh Birje
