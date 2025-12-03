@@ -28,39 +28,42 @@ Follow these steps to install the theme:
    ```bash
    sudo cp -r my-grub-theme/* /boot/grub/themes/mytheme/
 
-4. **Set the theme in GRUB configuration**
-   > Open the GRUB configuration file:
+4. **Open the GRUB configuration file**
 
    ```bash
    sudo nano /etc/default/grub
 
-   > Add or modify this line:
+5. **Add or modify this line**
 
    ```bash
    GRUB_THEME=/boot/grub/themes/mytheme/theme.txt
 
-5. **Update GRUB**
+6. **Update GRUB**
    ```bash
    sudo update-grub
 
-6. **Reboot to apply the theme**
+7. **Reboot to apply the theme**
    ```bash
    sudo reboot
 
-📁 Folder Structure
+---
+
+## 📁 Folder Structure
+```
 my-grub-theme/
 ├── assets/
-│   ├── background.png   # Background image
-│   ├── selection.png    # Selection box image
-│   └── font.pf2         # Custom font
+│   ├── background.png         # Background image
+│   ├── terminal_box_/*.png    # Terminal box image
+│   └── terminus-/*.pf2        # Custom font
 ├── icons/
-│   └── font.pf2         # Custom font
-├── theme.txt            # GRUB theme configuration
-└── README.md            # This file
+│   └── img.png                # Custom font
+├── theme.txt                  # GRUB theme configuration
+└── README.md                  # This file
+```
 
+---
 
-
-✏️ Customization
+## ✏️ Customization
 
 You can customize:
 
@@ -72,6 +75,8 @@ Font → assets/terminus-/*.pf2
 
 Menu position & colors → theme.txt
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 
 Created by Ashutosh Birje
