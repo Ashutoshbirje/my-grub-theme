@@ -63,9 +63,9 @@ my-grub-theme/
 
 ---
 
-## ✏️ Customization (Visit)[https://www.gnome-look.org/]
+## ✏️ Customization 
 
-You can customize:
+You can customize:(Visit)[https://www.gnome-look.org/]
 
 - **Background image** → assets/background.png
 
