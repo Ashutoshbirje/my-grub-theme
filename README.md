@@ -67,13 +67,13 @@ my-grub-theme/
 
 You can customize:
 
-Background image → assets/background.png
+- **Background image** → assets/background.png
 
-Terminal box → assets/terminal_box_/*.png
+- **Terminal box** → assets/terminal_box_/*.png
 
-Font → assets/terminus-/*.pf2
+- **Font** → assets/terminus-/*.pf2
 
-Menu position & colors → theme.txt
+- **Menu position & colors** → theme.txt
 
 ---
 
