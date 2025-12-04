@@ -56,7 +56,7 @@ my-grub-theme/
 │   ├── terminal_box_/*.png    # Terminal box image
 │   └── terminus-/*.pf2        # Custom font
 ├── icons/
-│   └── img.png                # Custom font
+│   └── img.png                # Custom image
 ├── theme.txt                  # GRUB theme configuration
 └── README.md                  # This file
 ```
